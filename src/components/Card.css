@@ -1,0 +1,50 @@
+.card {
+  position: relative;
+  display: flex;
+  width: 100%; 
+  max-width: 300px; 
+  min-height: 300px;
+  margin: 20px auto; 
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(67, 213, 218);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  box-sizing: border-box;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover,
+.card:focus {
+  background-color:  rgb(67, 213, 218);
+  transition: all 0.5s ease-in-out;
+}
+
+.card-content {
+  font-size: 24px;
+  text-align: center;
+  width: 100%; 
+}
+
+.card-check {
+  transform: rotateX(180deg);
+}
+
+.card::after {
+  content: attr(data-back);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 3px  rgb(67, 213, 218) solid;
+  border-radius: 10px;
+  transform: rotateX(180deg);
+  backface-visibility: hidden;
+  color:  rgb(67, 213, 218); 
+  font-size: 24px;
+}

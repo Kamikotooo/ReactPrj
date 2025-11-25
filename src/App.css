@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+  min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke; 
+  color:  rgb(67, 213, 218); 
+}

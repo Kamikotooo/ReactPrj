@@ -1,0 +1,92 @@
+[
+  { 
+    "id": 1, 
+    "front": "cat", 
+    "back": "кот",
+    "setName": "English"
+  },
+  { 
+    "id": 2, 
+    "front": "book", 
+    "back": "книга",
+    "setName": "English" 
+  },
+  { 
+    "id": 3, 
+    "front": "tree", 
+    "back": "дерево",
+    "setName": "English" 
+  },
+  { 
+    "id": 4, 
+    "front": "car", 
+    "back": "машина",
+    "setName": "English" 
+  },
+  { 
+    "id": 5, 
+    "front": "sky", 
+    "back": "небо",
+    "setName": "English" 
+  },
+  { 
+    "id": 6, 
+    "front": "coffee", 
+    "back": "кофе",
+    "setName": "English" 
+  },
+  { 
+    "id": 7, 
+    "front": "window", 
+    "back": "окно",
+    "setName": "English" 
+  },
+  { 
+    "id": 8, 
+    "front": "friend", 
+    "back": "друг",
+    "setName": "English" 
+  },
+  { 
+    "id": 9, 
+    "front": "music", 
+    "back": "музыка",
+    "setName": "English" 
+  },
+  { 
+    "id": 10, 
+    "front": "phone", 
+    "back": "телефон",
+    "setName": "English" 
+  },
+  { 
+    "id": 11, 
+    "front": "border", 
+    "back": "граница",
+    "setName": "css-свойства" 
+  },
+  { 
+    "id": 12, 
+    "front": "display", 
+    "back": "отображение",
+    "setName": "css-свойства" 
+  },
+  { 
+    "id": 13, 
+    "front": "color", 
+    "back": "цвет текста",
+    "setName": "css-свойства" 
+  },
+  { 
+    "id": 14, 
+    "front": "font-size", 
+    "back": "размер шрифта",
+    "setName": "css-свойства" 
+  },
+  { 
+    "id": 15, 
+    "front": "width", 
+    "back": "ширина",
+    "setName": "css-свойства" 
+  }
+]
